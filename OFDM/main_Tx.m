@@ -88,9 +88,6 @@ xlabel('Sample');
 legend('Realteil', 'Imaginärteil');
 grid on;
 
-
-
-
 %Zeitginal long Präampel
 f2=figure(2);
 
@@ -102,8 +99,6 @@ ylabel('Amplitude');
 xlabel('Sample');
 legend('Realteil', 'Imaginärteil');
 grid on;
-
-
 
 % Zeitsignal komplett
 f3=figure(3);
@@ -124,13 +119,9 @@ end
 grid on;
 legend('Realteil', 'Imaginärteil');
 
-
-
 % exportgraphics(f1, 'shortpreambel_tx.pdf', 'ContentType','vector');
 % exportgraphics(f2, 'longpreambel_tx.pdf', 'ContentType','vector');
 % exportgraphics(f3, 'komplett_tx.pdf', 'ContentType','vector');
-
-
 
 %% Sendevorgang
 % p_Tx = 60;
